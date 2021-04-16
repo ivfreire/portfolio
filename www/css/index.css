@@ -23,6 +23,13 @@
 
 .hide { display: none; }
 
+header { position: relative; }
+header > div.wrapper {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 div.intro {
 	display: flex;
 	flex-flow: row wrap;
@@ -86,16 +93,15 @@ div.social div.social-links i:hover {
 }
 
 @media screen and (max-width: 624px) {
-	header {
-		width: 80%;
-		padding: 10%;
+	div.intro {
+		width: 90%;
+		padding: 0 5%;
 	}
-
 	div.intro div.left, div.intro div.right {
 		width: 100%;
 		padding: 0;	
 	}
-	div.intro div.image { padding-bottom: 3%; }
+	div.intro div.image { padding-bottom: 5%; }
 	div.intro div.image img { border: none; }
 	div.intro div.text { position: relative; }
 	div.intro div.text h1 {

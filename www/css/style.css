@@ -45,7 +45,10 @@ nav.navigation div.right {
 	text-align: right;
 }
 
-header { padding: 100px 0; }
+header {
+	width: 100%;
+	height: 100vh;
+}
 
 div.content { height: auto; }
 
