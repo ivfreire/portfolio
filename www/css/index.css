@@ -23,14 +23,14 @@
 
 .hide { display: none; }
 
-div.intro { display: flex; }
-div.intro div.left {
-	width: 30%;
+div.intro {
+	display: flex;
+	flex-flow: row wrap;
 }
+div.intro div.left { width: 30%; }
 div.intro div.right {
 	position: relative;
 	display: flex;
-	flex-flow: column;
 	width: 65%;
 	padding-left: 5%;
 }
@@ -70,7 +70,10 @@ div.intro div.menu ul li:hover {
 	letter-spacing: 4px;
 }
 
-div.social div.social-links { text-align: center; }
+div.social div.social-links {
+	padding: 30px 0;
+	text-align: center;
+}
 div.social div.social-links i {
 	color: #000000;
 	font-size: 32px;
@@ -80,4 +83,25 @@ div.social div.social-links i {
 div.social div.social-links i:hover {
 	color: #069;
 	transform: scale(1.2);
+}
+
+@media screen and (max-width: 624px) {
+	header {
+		width: 80%;
+		padding: 10%;
+	}
+
+	div.intro div.left, div.intro div.right {
+		width: 100%;
+		padding: 0;	
+	}
+	div.intro div.image { padding-bottom: 3%; }
+	div.intro div.image img { border: none; }
+	div.intro div.text { position: relative; }
+	div.intro div.text h1 {
+		text-align: center;
+		font-size: 32px;
+		line-height: normal;
+	}
+	div.intro div.text h3 { text-align: center; }
 }
