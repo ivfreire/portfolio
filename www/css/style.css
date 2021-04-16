@@ -13,9 +13,10 @@ body { background-color: #E6E7E8; }
 
 nav.navigation {
 	width: 100%;
-	padding: 50px 0;
 }
 nav.navigation div.right { float: right; }
+
+header { padding: 100px 0; }
 
 footer { width: 100%; }
 footer div.bottom { width: 100%; }
