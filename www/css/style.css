@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Raleway;
+}
+
+div.wrapper {
+	width: 70%;
+	padding: 0 15%;
+}
+
+body { background-color: #E6E7E8; }
+
+nav.navigation {
+	width: 100%;
+	padding: 50px 0;
+}
+nav.navigation div.right { float: right; }
+
+footer { width: 100%; }
+footer div.bottom { width: 100%; }
+footer div.bottom > div { text-align: center; }

@@ -1,0 +1,21 @@
+div.intro { display: flex; }
+div.intro div.left {
+	width: 30%;
+}
+div.intro div.right {
+	display: flex;
+	flex-flow: column;
+	align-content: center;
+	width: 65%;
+	padding-left: 5%;
+}
+div.intro div.image img {
+	width: 100%;
+	border: 8px solid #FFF;
+	border-radius: 100%;
+	box-shadow: 0 0 50px #D6D7D8;
+}
+div.intro div.text h1 {
+	font-size: 96px;
+	line-height: 120px;
+}
