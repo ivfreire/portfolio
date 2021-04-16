@@ -36,7 +36,7 @@ nav.navigation div.right {
 
 header { padding: 100px 0; }
 
-div.content { height: 100vh }
+div.content { height: auto; }
 
 footer { width: 100%; }
 footer div.bottom { width: 100%; }
