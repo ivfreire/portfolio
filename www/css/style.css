@@ -185,6 +185,7 @@ footer div.bottom > div { text-align: center; }
 		transform: translateY(0);
 		top: 0;
 	}
+	div.stack div.container i.background { display: none }
 
 	div.cards a { margin-bottom: 16px; }
 }
