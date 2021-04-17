@@ -94,6 +94,56 @@ div.social div.social-links i:hover {
 
 div.cards#projects > a { width: 32%; }
 
+ul#contact-info { list-style-type: none; }
+ul#contact-info a { text-decoration: none; color: #000000; }
+ul#contact-info li {
+	font-size: 16px;
+	line-height: 24px;
+	padding: 5px 0;
+}
+ul#contact-info li i {
+	padding-right: 10px;
+}
+
+div.academy {
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: space-between;
+}
+div.academy div.left { width: 55%; }
+div.academy div.right { position: relative; width: 40%; }
+
+div.academy div.slides h1 { font-weight: normal; }
+div.academy div.slides img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+div.degrees {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+div.degrees div.degree {
+	display: flex;
+	flex-flow: row-reverse wrap;
+	padding: 24px 0;
+	border-bottom: 1px dashed #C6C7C8;
+	text-align: right;
+}
+div.degrees div.degree:last-child {
+	border-bottom: none;
+}
+div.degrees div.degree div.logo { padding: 10px 10px 10px 20px; }
+div.degrees div.degree div.logo i {
+	font-size: 44px;
+	transition: 0.25s all;
+}
+div.degrees div.degree:hover div.logo i {
+	transform: translateY(-10px) rotate(-20deg) scale(1.2);
+}
+
 @media screen and (max-width: 624px) {
 	div.intro {
 		width: 90%;
