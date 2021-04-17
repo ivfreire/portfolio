@@ -12,7 +12,7 @@
 
 @keyframes image {
 	0% {
-		transform: rotate(-45deg) scale(0.5);
+		transform: rotate(-50deg) scale(0.5);
 		opacity: 0;
 	}
 	100% {
@@ -45,7 +45,7 @@ div.intro div.image img {
 	width: 100%;
 	border: 8px solid #FFF;
 	border-radius: 100%;
-	box-shadow: 0 0 50px #D6D7D8;
+	box-shadow: 0 0 50px #C6C7C8;
 	animation: image 0.5s ease-in-out;
 }
 div.intro div.text {
@@ -92,6 +92,8 @@ div.social div.social-links i:hover {
 	transform: scale(1.2);
 }
 
+div.cards#projects > a { width: 32%; }
+
 @media screen and (max-width: 624px) {
 	div.intro {
 		width: 90%;
@@ -110,4 +112,6 @@ div.social div.social-links i:hover {
 		line-height: normal;
 	}
 	div.intro div.text h3 { text-align: center; }
+
+	div.cards#projects > a { width: 100%; }
 }

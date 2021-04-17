@@ -15,6 +15,8 @@
 	font-family: Raleway;
 }
 
+p { line-height: 24px; }
+
 div.wrapper {
 	width: 70%;
 	padding: 0 15%;
@@ -28,14 +30,38 @@ div.box {
 
 div.panel { 
 	width: 100%;
-	background: red;
 }
 div.panel div.title {
-	width: 96%;
-	padding: 2%;
+	width: 100%;
+	padding: 0 0 2% 0;
+}
+div.panel div.title > span {
+	font-size: 48px;
+	font-weight: normal;
+	letter-spacing: 8px;
+}
+div.panel div.more {
+	width: 100%;
+	padding: 30px 0;
+	text-align: center;
+}
+div.panel div.more a {
+	padding: 8px 16px;
+	text-decoration: none;
+	color: #000000;
+	transition: 0.25s all;
+	border-bottom: 1px solid #000000;
+}
+div.panel div.more a:hover {
+	color: #006699;
+	letter-spacing: 4px;
+	border-bottom: 1px solid #006699;
 }
 
-body { background-color: #E6E7E8; }
+body {
+	background-color: #E6E7E8;
+	overflow-x: hidden;
+}
 
 nav.navigation {
 	width: 100%;
@@ -50,9 +76,69 @@ header {
 	height: 100vh;
 }
 
-div.content { height: auto; }
+div.stack {
+	width: 100vw;
+}
+div.stack div.container > div.holder {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+div.stack div.container {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+div.stack div.container i.background {
+	position: absolute;
+	font-size: 100vh;
+	color: #E0E1E2;
+	top: 0;
+	right: 0;
+	z-index: 0;
+}
 
-footer { width: 100%; }
+div.cards {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+div.cards a {
+	text-decoration: none;
+	color: #000000;
+}
+div.cards div.card {
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	overflow: hidden;
+}
+div.cards div.card div.thumb {
+	width: 100%;
+	height: 0px;
+	padding-bottom: 56.25%;
+	border-radius: 10px 10px 0 0;
+	overflow: hidden;
+}
+div.cards div.card div.thumb img {
+	width: 100%;
+	transition: 0.25s all;
+}
+div.cards div.card:hover div.thumb img { transform: scale(1.2); }
+div.cards div.card div.text {
+	width: 80%;
+	padding: 10%;
+}
+
+footer {
+	width: 100%;
+	padding: 100px 0;
+}
 footer div.bottom { width: 100%; }
 footer div.bottom > div { text-align: center; }
 
@@ -61,4 +147,19 @@ footer div.bottom > div { text-align: center; }
 		width: 100%;
 		padding: 0 0;
 	}
+
+	div.panel {
+		width: 90%;
+		padding: 0 5%;
+	}
+	div.panel div.title { padding-bottom: 30px; }
+
+	div.stack div.container { padding: 100px 0; }
+	div.stack div.container > div.holder {
+		position: relative;
+		transform: translateY(0);
+		top: 0;
+	}
+
+	div.cards a { margin-bottom: 16px; }
 }

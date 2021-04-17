@@ -5,3 +5,7 @@ window.onload = function() {
 		$('div.intro div.hide').slideDown(250);
 	}, 250);
 }
+
+window.onscroll = function() {
+	
+}
