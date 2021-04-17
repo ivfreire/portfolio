@@ -168,12 +168,17 @@ div.degrees div.degree:hover div.logo i {
 	div.cards#projects > a { width: 100%; }
 
 	div.academy { flex-direction: column-reverse; }
-	div.academy div.left { margin-bottom: 20px; width: 100%; }
-	div.academy div.right { width: 100%; }
+	div.academy div.left { width: 100%; }
+	div.academy div.right { margin-bottom: 30px; width: 100%; }
 
 	div.degrees {
 		position: relative;
 		top: 0;
 		transform: translateY(0);
+	}
+
+	div.degrees div.degree > div {
+		width: 100%;
+		text-align: center;
 	}
 }

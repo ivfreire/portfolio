@@ -174,7 +174,11 @@ footer div.bottom > div { text-align: center; }
 		width: 90%;
 		padding: 0 5%;
 	}
-	div.panel div.title { padding-bottom: 30px; }
+	div.panel div.title {
+		padding-bottom: 30px;
+		text-align: center;
+	}
+	div.stack div.container.right div.panel > div.title { text-align: center; }
 
 	div.stack div.container {
 		height: auto;
