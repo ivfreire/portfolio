@@ -152,7 +152,7 @@ footer div.bottom > div { text-align: center; }
 
 /* RESPONSIVE SUPPORT */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 624px) {
 	div.wrapper {
 		width: 90%;
 		padding: 0 5%;
@@ -160,6 +160,11 @@ footer div.bottom > div { text-align: center; }
 }
 
 @media screen and (max-width: 624px) {
+	div.half {
+		width: 80%;
+		padding: 10%;
+	}
+
 	div.wrapper {
 		width: 100%;
 		padding: 0 0;
@@ -171,7 +176,10 @@ footer div.bottom > div { text-align: center; }
 	}
 	div.panel div.title { padding-bottom: 30px; }
 
-	div.stack div.container { padding: 100px 0; }
+	div.stack div.container {
+		height: auto;
+		padding: 50px 0;
+	}
 	div.stack div.container > div.holder {
 		position: relative;
 		transform: translateY(0);
