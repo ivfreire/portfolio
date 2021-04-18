@@ -41,13 +41,23 @@ div.intro div.right {
 	width: 65%;
 	padding-left: 5%;
 }
+div.intro div.image { position: relative; }
+div.intro div.image:hover img {
+	transform: translateY(-30px) rotate(-10deg);
+	box-shadow: 0 0 50px #969798;
+}
+div.intro div.image:hover img:last-child { transform: translateY(-30px); }
 div.intro div.image img {
+	position: absolute;
 	width: 100%;
 	border: 8px solid #FFF;
 	border-radius: 100%;
 	box-shadow: 0 0 50px #C6C7C8;
 	animation: image 0.5s ease-in-out;
+	transition: 0.25s all;
 }
+div.intro div.image img:last-child { position: relative; }
+
 div.intro div.text {
 	position: absolute;
 	top: 50%;
@@ -57,6 +67,7 @@ div.intro div.text h1 {
 	font-size: 96px;
 	line-height: 90px;
 	animation: name 0.5s ease-in-out;
+	cursor: default;
 }
 div.intro div.menu {
 	width: 100%
@@ -89,7 +100,7 @@ div.social div.social-links i {
 }
 div.social div.social-links i:hover {
 	color: #069;
-	transform: scale(1.2);
+	transform: scale(1.5);
 }
 
 div.cards#projects > a { width: 32%; }

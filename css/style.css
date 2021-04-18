@@ -145,7 +145,7 @@ div.stack div.container.right div.panel > div.title { text-align: right; }
 
 footer {
 	width: 100%;
-	padding: 100px 0;
+	padding: 100px 0 50vh 0;
 }
 footer div.bottom { width: 100%; }
 footer div.bottom > div { text-align: center; }
