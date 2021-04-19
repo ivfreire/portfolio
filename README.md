@@ -1,3 +1,3 @@
-# Portfolio
+# Ícaro Freire
 
-My personal web portfolio.
+This is my personal webpage and online portfolio. Available in [here](icarofreire.com)
