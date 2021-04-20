@@ -163,6 +163,19 @@ div.degrees div.degree:hover div.logo i {
 	transform: translateY(-10px) rotate(-20deg) scale(1.2);
 }
 
+div.about-me { text-align: center; }
+div.about-me div.picture { padding: 10px; }
+div.about-me div.picture img {
+	width: 200px;
+	border: 2px solid #FFFFFF;
+	border-radius: 100%;
+	margin-bottom: 10px;
+}
+div.about-me div.picture span {
+	font-size: 22px;
+	letter-spacing: 4px;
+}
+
 @media screen and (max-width: 624px) {
 	div.intro {
 		width: 90%;
