@@ -18,6 +18,8 @@
 :root {
 	--black: #000000;
 	--white: #FFFFFF;
+	--gray: #E6E7E8;
+	--dark-gray: #E0E1E2;
 	--blue: #006699;
 	--c: var(--white);
 	--d: var(--white);
@@ -122,16 +124,31 @@ body {
 
 nav.navigation {
 	width: 100%;
+	background-color: var(--dark-gray);
+	padding: 30px 0;
 }
-nav.navigation div.right {
-	width: 100%;
-	text-align: right;
+nav.navigation div.menu { width: 100%; }
+nav.navigation div.menu ul { list-style-type: none; }
+nav.navigation div.menu ul a { text-decoration: none; }
+nav.navigation div.menu ul a:first-of-type { font-weight: bold; }
+nav.navigation div.menu ul li {
+	display: inline;
+	padding: 8px 16px;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	transition: 0.25s all;
+}
+nav.navigation div.menu ul li:hover {
+	color: #069;
+	border-bottom: 1px solid #069;
+	letter-spacing: 4px;
 }
 
-header {
-	width: 100%;
-	height: 100vh;
+header.title {
+	padding: 100px 0;
 }
+header.title h1 { font-size: 96px; }
 
 div.stack { width: 100vw; }
 div.stack div.container { position: relative; }
@@ -151,7 +168,7 @@ div.stack div.container > div.holder {
 div.stack div.container > i.background {
 	position: absolute;
 	font-size: 80vh;
-	color: #E0E1E2;
+	color: var(--dark-gray);
 	top: 10vh;
 	right: -10vw;
 	z-index: 0;

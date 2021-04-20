@@ -25,6 +25,8 @@
 
 header {
 	position: relative;
+	width: 100vw;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -69,9 +71,7 @@ div.intro div.text h1 {
 	animation: name 0.5s ease-in-out;
 	cursor: default;
 }
-div.intro div.menu {
-	width: 100%
-}
+div.intro div.menu { width: 100%; }
 div.intro div.menu ul { list-style-type: none; }
 div.intro div.menu ul a { text-decoration: none; }
 div.intro div.menu ul li {
