@@ -120,17 +120,17 @@ header {
 }
 
 div.stack { width: 100vw; }
-div.stack div.container > div.holder {
-	position: absolute;
-	width: 100%;
-	top: 50%;
-	transform: translateY(-50%);
-	z-index: 1;
-}
-div.stack div.container {
-	position: relative;
+div.stack div.container { position: relative; }
+div.stack div.container.float {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100vw;
 	height: 100vh;
+}
+div.stack div.container > div.holder {
+	width: 100%;
+	z-index: 1;
 }
 div.stack div.container i.background {
 	position: absolute;
@@ -180,7 +180,7 @@ footer div.bottom > div { text-align: center; }
 	}
 	div.stack div.container.right div.panel > div.title { text-align: center; }
 
-	div.stack div.container {
+	div.stack div.container.float {
 		height: auto;
 		padding: 50px 0;
 	}

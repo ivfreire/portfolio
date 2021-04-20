@@ -23,11 +23,11 @@
 
 .hide { display: none; }
 
-header { position: relative; }
-header > div.wrapper {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+header {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 div.intro {
@@ -124,7 +124,13 @@ div.academy {
 	padding: 0;
 }
 div.academy div.left { width: 55%; }
-div.academy div.right { position: relative; width: 40%; }
+div.academy div.right {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+}
 
 div.academy div.slides h1 { font-weight: normal; }
 div.academy div.slides img {
@@ -133,11 +139,11 @@ div.academy div.slides img {
 }
 
 div.degrees {
-	position: absolute;
+	display: flex;
+	flex-flow: column;
 	width: 100%;
-	top: 50%;
-	transform: translateY(-50%);
 }
+
 div.degrees div.degree {
 	display: flex;
 	flex-flow: row-reverse wrap;
