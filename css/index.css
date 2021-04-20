@@ -175,6 +175,9 @@ div.about-me div.picture span {
 	font-size: 22px;
 	letter-spacing: 4px;
 }
+div.about-me div.text p {
+	text-shadow: 1px 0 0px var(--black);
+}
 
 @media screen and (max-width: 624px) {
 	div.intro {
