@@ -36,7 +36,12 @@ div.intro {
 	display: flex;
 	flex-flow: row wrap;
 }
-div.intro div.left { width: 30%; }
+div.intro div.left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
+}
 div.intro div.right {
 	position: relative;
 	display: flex;
@@ -59,11 +64,10 @@ div.intro div.image img {
 	transition: 0.25s all;
 }
 div.intro div.image img:last-child { position: relative; }
-
 div.intro div.text {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.intro div.text h1 {
 	font-size: 96px;
@@ -72,19 +76,23 @@ div.intro div.text h1 {
 	cursor: default;
 }
 div.intro div.menu { width: 100%; }
-div.intro div.menu ul { list-style-type: none; }
+div.intro div.menu ul {
+	list-style-type: none;
+}
 div.intro div.menu ul a { text-decoration: none; }
 div.intro div.menu ul li {
-	display: inline;
+	display: inline-block;
 	padding: 8px 16px;
 	text-transform: uppercase;
 	color: black;
 	text-align: center;
 	transition: 0.25s all;
+
+	border-bottom: 1px solid transparent;
 }
 div.intro div.menu ul li:hover {
-	color: #069;
-	border-bottom: 1px solid #069;
+	color: var(--blue);
+	border-bottom: 1px solid var(--blue);
 	letter-spacing: 4px;
 }
 
@@ -173,7 +181,8 @@ div.about-me div.picture img {
 }
 div.about-me div.picture span {
 	font-size: 22px;
-	letter-spacing: 4px;
+	font-weight: bold;
+	letter-spacing: 2px;
 }
 div.about-me div.text p {
 	text-shadow: 1px 0 0px var(--black);

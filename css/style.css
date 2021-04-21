@@ -132,22 +132,21 @@ nav.navigation div.menu ul { list-style-type: none; }
 nav.navigation div.menu ul a { text-decoration: none; }
 nav.navigation div.menu ul a:first-of-type { font-weight: bold; }
 nav.navigation div.menu ul li {
-	display: inline;
+	display: inline-block;
 	padding: 8px 16px;
 	text-transform: uppercase;
 	color: black;
 	text-align: center;
 	transition: 0.25s all;
+	border-bottom: 1px solid transparent;
 }
 nav.navigation div.menu ul li:hover {
-	color: #069;
-	border-bottom: 1px solid #069;
+	color: var(--blue);
+	border-bottom: 1px solid var(--blue);
 	letter-spacing: 4px;
 }
 
-header.title {
-	padding: 100px 0;
-}
+header.title { padding: 100px 0; }
 header.title h1 { font-size: 96px; }
 
 div.stack { width: 100vw; }
@@ -201,6 +200,8 @@ footer div.bottom > div { text-align: center; }
 		width: 90%;
 		padding: 0 5%;
 	}
+
+	header.title h1 { font-size: 64px; }
 }
 
 @media screen and (max-width: 624px) {
@@ -238,4 +239,7 @@ footer div.bottom > div { text-align: center; }
 	div.stack div.container i.background { display: none }
 
 	div.cards a { margin-bottom: 16px; }
+
+	header { text-align: center; }
+	header.title h1 { font-size: 32px; }
 }
