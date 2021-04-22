@@ -124,54 +124,12 @@ ul#contact-info li i {
 	padding-right: 10px;
 }
 
-div.academy {
+div.about-me {
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	width: 100%;
-	padding: 0;
-}
-div.academy div.left { width: 55%; }
-div.academy div.right {
-	position: relative;
-	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	align-items: center;
-	width: 40%;
+	text-align: center;
 }
-
-div.academy div.slides h1 { font-weight: normal; }
-div.academy div.slides img {
-	width: 100%;
-	border-radius: 10px;
-}
-
-div.degrees {
-	display: flex;
-	flex-flow: column;
-	width: 100%;
-}
-
-div.degrees div.degree {
-	display: flex;
-	flex-flow: row-reverse wrap;
-	padding: 24px 0;
-	border-bottom: 1px dashed #C6C7C8;
-	text-align: right;
-}
-div.degrees div.degree:last-child {
-	border-bottom: none;
-}
-div.degrees div.degree div.logo { padding: 10px 10px 10px 20px; }
-div.degrees div.degree div.logo i {
-	font-size: 44px;
-	transition: 0.25s all;
-}
-div.degrees div.degree:hover div.logo i {
-	transform: translateY(-10px) rotate(-20deg) scale(1.2);
-}
-
-div.about-me { text-align: center; }
 div.about-me div.picture { padding: 10px; }
 div.about-me div.picture img {
 	width: 200px;
@@ -184,9 +142,8 @@ div.about-me div.picture span {
 	font-weight: bold;
 	letter-spacing: 2px;
 }
-div.about-me div.text p {
-	text-shadow: 1px 0 0px var(--black);
-}
+div.about-me div.text { width: 70%; }
+div.about-me div.text p { text-shadow: 0px 0 2px var(--black); }
 
 @media screen and (max-width: 624px) {
 	div.intro {
