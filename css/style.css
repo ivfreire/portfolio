@@ -249,5 +249,8 @@ footer div.bottom > div { text-align: center; }
 	div.cards a { margin-bottom: 16px; }
 
 	header { text-align: center; }
-	header.title h1 { font-size: 32px; }
+	header.title h1 {
+		font-size: 32px;
+		line-height: 30px;
+	}
 }
