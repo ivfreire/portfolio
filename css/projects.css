@@ -1,0 +1,25 @@
+div.cards#extracurricular > a { width: 32%; }
+div.cards#internships > a { width: 32%; }
+div.cards#standalone > a {
+	width: 32%;
+	margin-bottom: 1%;
+}
+
+
+@media screen and (max-width: 1024px) {
+	div.cards#extracurricular > a { width: 49%; }
+	div.cards#internships > a { width: 49%; }
+	div.cards#standalone > a {
+		width: 49%;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 624px) {
+	div.cards#extracurricular > a { width: 100%; }
+	div.cards#internships > a { width: 100%; }
+	div.cards#standalone > a {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
