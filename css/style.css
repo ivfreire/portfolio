@@ -147,10 +147,16 @@ nav.navigation div.menu ul li:hover {
 }
 
 header.title { padding: 100px 0; }
-header.title h1 { font-size: 96px; }
+header.title h1 {
+	font-size: 96px;
+	line-height: 80px;
+}
 
 div.stack { width: 100vw; }
-div.stack div.container { position: relative; }
+div.stack div.container {
+	position: relative;
+	padding: 100px 0;
+}
 div.stack div.container.light p, div.stack div.container.light span { color: white; }
 div.stack div.container.float {
 	display: flex;
@@ -159,6 +165,7 @@ div.stack div.container.float {
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
+	padding: 0;
 }
 div.stack div.container > div.holder {
 	width: 100%;
@@ -184,6 +191,7 @@ div.stack div.container > img.background {
 }
 div.stack div.container.right i.background { left: -10vw; }
 div.stack div.container.right div.panel > div.title { text-align: right; }
+div.stack div.container.right div.cards > a { margin-left: auto; }
 div.stack div.container.center div.panel > div.title { text-align: center; }
 
 footer {

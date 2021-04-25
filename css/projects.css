@@ -1,0 +1,6 @@
+div.cards#extracurricular > a { width: 32%; }
+div.cards#internships > a { width: 32%; }
+div.cards#standalone > a {
+	width: 32%;
+	margin-bottom: 1%;
+}
