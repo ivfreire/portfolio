@@ -1,4 +1,4 @@
-// Created by Ícaro Freire on April 16th 2021.
+// Created by Icaro Freire on April 16th 2021.
 
 window.onload = function() {
 	setTimeout(function() {

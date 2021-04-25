@@ -143,7 +143,7 @@ nav.navigation div.menu ul li {
 nav.navigation div.menu ul li:hover {
 	color: var(--blue);
 	border-bottom: 1px solid var(--blue);
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 }
 
 header.title { padding: 100px 0; }
@@ -188,7 +188,7 @@ div.stack div.container.center div.panel > div.title { text-align: center; }
 
 footer {
 	width: 100%;
-	padding: 100px 0 50vh 0;
+	padding: 100px 0 200px 0;
 }
 footer div.bottom { width: 100%; }
 footer div.bottom > div { text-align: center; }
