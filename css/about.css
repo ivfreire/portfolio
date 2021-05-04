@@ -1,0 +1,14 @@
+div.about {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+div.about > div {
+	width: 40%;
+}
+div.about div.image img {
+	width: 100%;
+	background: var(--white);
+	border: 10px solid var(--white);
+	border-radius: 10px;
+}
