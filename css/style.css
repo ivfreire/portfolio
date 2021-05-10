@@ -185,7 +185,7 @@ div.stack div.container > img.background {
 	height: 100%;
 	object-fit: cover;
 	left: 0;
-	filter: blur(4px);
+	filter: blur(8px);
 	z-index: 0;
 	transform: scale(1.1);
 }
