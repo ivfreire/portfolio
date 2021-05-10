@@ -16,3 +16,35 @@ div.about div.image img {
 }
 div.about div.text {
 }
+
+div.degrees {
+}
+div.degrees span.title {
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+div.degrees ul.degrees {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+}
+div.degrees ul.degrees li.degree {
+	display: flex;
+	padding: 10px 0;
+	border-bottom: 1px dashed white;
+}
+div.degrees ul.degrees li.degree:last-child { border-bottom: none; }
+div.degrees ul.degrees li.degree > div { display: flex; }
+div.degrees ul.degrees li.degree > div.icon {
+	display: flex;
+	padding: 12px 20px 12px 0;
+}
+div.degrees ul.degrees li.degree > div.icon i {
+	color: white;
+	font-size: 42px;
+}
+div.degrees ul.degrees li.degree > div.text {
+	display: flex;
+	flex-direction: column;
+}
