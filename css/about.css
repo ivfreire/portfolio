@@ -47,3 +47,13 @@ div.degrees ul.degrees li.degree > div.text {
 	display: flex;
 	flex-direction: column;
 }
+
+div.container#education-container div.text { width: 50%; }
+
+@media screen and (max-width: 624px) {
+	div.about { flex-direction: column; }
+	div.about > div { width: 100%; }
+	div.about > div.image { margin-bottom: 30px; }
+
+	div.container#education-container div.text { width: 100%; }
+}
