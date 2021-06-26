@@ -1,3 +1,7 @@
+<?php
+	$misc = json_decode(file_get_contents('./data/misc.json'), true);
+	$links = $misc['links'];
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,33 +44,21 @@
 								<div class="title"><span>LINKS</span></div>
 								<div class="content">
 									<div class="cards" id="links">
-										<a href="https://earth.nullschool.net" target="_blank"">
-											<div class="card">
-												<div class="thumb"><img src="res/links/earth_nullschool.jpg"></div>
-												<div class="text">
-													<h3>earth.nullschool.net</h3><br>
-													<p>A website to visualize winds and temperatures in Earth's atmosphere.</p>
-												</div>
-											</div>
-										</a>
-										<a href="https://www.star.nesdis.noaa.gov/GOES/index.php" target="_blank"">
-											<div class="card">
-												<div class="thumb"><img src="res/links/goes_imagery_viewer.jpg"></div>
-												<div class="text">
-													<h3>GOES Imagery Viewer</h3><br>
-													<p>GOES satellite data. </p>
-												</div>
-											</div>
-										</a>
-										<a href="https://svs.gsfc.nasa.gov" target="_blank"">
-											<div class="card">
-												<div class="thumb"><img src="res/links/nasa_svs.jpg"></div>
-												<div class="text">
-													<h3>Nasa Scientific Visualization Studio</h3><br>
-													<p>Satellite data and resources from NASA.</p>
-												</div>
-											</div>
-										</a>
+										<?php
+											foreach($links as $link) {
+												echo "
+													<a href='".$link['link']."' target='_blank'>
+														<div class='card'>
+															<div class='thumb'><img src='res/misc/links/".$link['thumb']."'></div>
+															<div class='text'>
+																<h3>".$link['title']."</h3><br>
+																<p>".$link['description']."</p>
+															</div>
+														</div>
+													</a>
+												";
+											}
+										?>
 									</div>
 								</div>
 							</div>

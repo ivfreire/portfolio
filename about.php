@@ -43,7 +43,7 @@
 								<div class="content">
 									<div class="about">
 										<div class="image">
-											<img src="images/me/me_2.png" alt="Ícaro Vaz Freure"/>
+											<img src="images/developer/about.png" alt="Ícaro Vaz Freure"/>
 										</div>
 										<div class="text">
 											<p>Hey! I am Ícaro, a 20 years-old student passionate about science and technology. Currently I am graduating from a <b>Bachelor of Science</b> degree, in <b>Physics</b>, at the Institute of Physics at the <b>University of São Paulo</b>, in Brazil. I am also an IT HelpDesk intern at the Centre of Computing at IFUSP.
