@@ -58,6 +58,9 @@
 					</div>
 				</div>
 			</div>
+			<div class="indicator">
+				<i class="fas fa-chevron-down"></i>
+			</div>
 		</header>
 		<div class="content">
 			<div class="stack">

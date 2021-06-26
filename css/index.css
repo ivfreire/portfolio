@@ -21,6 +21,12 @@
 	}
 }
 
+@keyframes indicator {
+	0% { bottom: 0; }
+	50% { bottom: 32px; }
+	100% { bottom: 0; }
+}
+
 .hide { display: none; }
 
 header {
@@ -109,6 +115,15 @@ div.social div.social-links i {
 div.social div.social-links i:hover {
 	color: #069;
 	transform: scale(1.5);
+}
+
+div.indicator {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	font-size: 64px;
+	text-align: center;
+	animation: indicator 1s infinite ease-in-out;
 }
 
 div.cards#projects > a { width: 32%; }
