@@ -152,10 +152,7 @@ div.about-me div.picture img {
 	border-radius: 100%;
 	margin-bottom: 10px;
 }
-div.about-me div.picture span {
-	font-size: 22px;
-	font-weight: bold;
-}
+div.about-me div.picture span { font-size: 22px; }
 div.about-me div.text { width: 70%; }
 div.about-me div.text p { text-shadow: 0px 0 2px var(--black); }
 
