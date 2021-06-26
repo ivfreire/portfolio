@@ -7,7 +7,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial=scale=1.0">
-	<meta name="description" content="My name is Ícaro Vaz Freire, this is my online portfolio, hope you like my work.">
+	<meta name="description" content="<?php echo $dev['description'];?>">
 	<title><?php echo $dev['title']; ?></title>
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="css/style.css">
