@@ -8,7 +8,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial=scale=1.0">
 	<meta name="description" content="<?php echo $dev['description'];?>">
-	<title><?php echo $dev['title'];?>.</title>
+	<title><?php echo $dev['title'];?></title>
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/index.css">
@@ -30,7 +30,7 @@
 						<div class="text">
 							<h1><?php echo $dev['title'];?></h1>
 							<div class="hide">
-								<h3><?php echo $dev['motd'];?></h3><br>
+								<h3><?php echo $dev['motd'];?>.</h3><br>
 								<p><?php echo $dev['description'];?></p><br>
 								<div class="menu">
 									<ul>
