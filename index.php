@@ -28,9 +28,9 @@
 					</div>
 					<div class="right">
 						<div class="text">
-							<h1><?php echo $dev['title'];?></h1>
+							<h1><?php echo $dev['title'];?>.</h1>
 							<div class="hide">
-								<h3><?php echo $dev['motd'];?>.</h3><br>
+								<h3><?php echo $dev['motd'];?></h3><br>
 								<p><?php echo $dev['description'];?></p><br>
 								<div class="menu">
 									<ul>
