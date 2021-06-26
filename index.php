@@ -8,7 +8,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial=scale=1.0">
 	<meta name="description" content="<?php echo $dev['description'];?>">
-	<title><?php echo $dev['title']; ?></title>
+	<title><?php echo $dev['title'];?>.</title>
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/index.css">
@@ -51,7 +51,7 @@
 							<?php
 								if (isset($dev['socials']['github'])) echo "<a href='https://github.com/".$dev['socials']['github']."/' target='_blank' title='GitHub'><i class='fab fa-github'></i></a>";
 								if (isset($dev['socials']['instagram'])) echo "<a href='https://instagram.com/".$dev['socials']['instagram']."/' target='_blank' title='Instagram'><i class='fab fa-instagram'></i></a>";
-								if (isset($dev['socials']['linkedin'])) echo "<a href='https://www.linkedin.com/in".$dev['socials']['linkedin']."/' target='_blank' title='Linkedin'><i class='fab fa-linkedin-in'></i></a>";
+								if (isset($dev['socials']['linkedin'])) echo "<a href='https://www.linkedin.com/in/".$dev['socials']['linkedin']."/' target='_blank' title='Linkedin'><i class='fab fa-linkedin-in'></i></a>";
 								if (isset($dev['socials']['kaggle'])) echo "<a href='https://www.kaggle.com/".$dev['socials']['kaggle']."/' target='_blank' title='Kaggle'><i class='fab fa-kaggle'></i></a>";
 							?>
 						</div>
