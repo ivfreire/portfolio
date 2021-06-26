@@ -34,10 +34,10 @@
 								<p><?php echo $dev['description'];?></p><br>
 								<div class="menu">
 									<ul>
-										<a href="about.php"><li>ABOUT ME</li></a>
-										<a href="projects.php"><li>PROJECTS</li></a>
-										<!-- <a href="journal.php"><li>JOURNAL</li></a> -->
-										<a href="misc.php"><li>MISCS</li></a>
+										<?php
+											$pages = $info['pages'];
+											foreach($pages as $page) echo "<a href='".$page['link']."'><li>".$page['title']."</li></a>";
+										?>
 										<a href="#contact-container"><li>CONTACT ME</li></a>
 									</ul>
 								</div>
