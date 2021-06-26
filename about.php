@@ -60,7 +60,7 @@
 				</div>
 
 				<div class="container float light" id="education-container">
-					<img src="images/usp.jpg" class="background" alt="praça do relógio usp">
+					<img src="images/backgrounds/usp.jpg" class="background" alt="praça do relógio usp">
 					<div class="holder">
 						<div class="wrapper">
 							<div class="panel">

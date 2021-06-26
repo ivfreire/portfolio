@@ -105,7 +105,7 @@
 				</div>
 
 				<div class="container float center light" id="about-me-container">
-					<img src="images/sao_paulo.jpg" alt="são paulo city" class="background">
+					<img src="images/backgrounds/sao_paulo.jpg" alt="são paulo city" class="background">
 					<div class="holder">
 						<div class="wrapper">
 							<div class="panel">
