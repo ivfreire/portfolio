@@ -50,6 +50,7 @@
 						<div class="social-links">
 							<?php
 								if (isset($dev['socials']['github'])) echo "<a href='https://github.com/".$dev['socials']['github']."/' target='_blank' title='GitHub'><i class='fab fa-github'></i></a>";
+								if (isset($dev['socials']['twitter'])) echo "<a href='https://twitter.com/".$dev['socials']['twitter']."/' target='_blank' title='Twitter'><i class='fab fa-twitter'></i></a>";
 								if (isset($dev['socials']['instagram'])) echo "<a href='https://instagram.com/".$dev['socials']['instagram']."/' target='_blank' title='Instagram'><i class='fab fa-instagram'></i></a>";
 								if (isset($dev['socials']['linkedin'])) echo "<a href='https://www.linkedin.com/in/".$dev['socials']['linkedin']."/' target='_blank' title='Linkedin'><i class='fab fa-linkedin-in'></i></a>";
 								if (isset($dev['socials']['kaggle'])) echo "<a href='https://www.kaggle.com/".$dev['socials']['kaggle']."/' target='_blank' title='Kaggle'><i class='fab fa-kaggle'></i></a>";
