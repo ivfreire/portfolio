@@ -9,9 +9,14 @@ div.about > div {
 	justify-content: center;
 	width: 45%;
 }
+div.about div.text p {
+	margin-bottom: 16px; 
+}
 div.about div.image img {
 	width: 100%;
-	border-radius: 10px;
+	border: 10px solid white;
+	border-radius: 100%;
+	box-shadow: 0 0 30px #888888;
 }
 
 ul.list {
@@ -60,7 +65,7 @@ div.container#education-container div.university-logo > img {
 	width: 90%;
 }
 
-div.container#education-container div.university-logo > img.circle { animation: uni-circle 60s infinite linear; }
+div.container#education-container div.university-logo > img.circle { animation: uni-circle 60s infinite linear reverse; }
 div.container#education-container div.university-logo > img.coat { width: 37%; }
 
 div.container#education-container div.panel div.content { flex-flow: row; }
