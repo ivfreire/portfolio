@@ -43,11 +43,11 @@
 								<div class="title"><span>HELLO WORLD</span></div>
 								<div class="content">
 									<div class="about">
-										<div class="image">
-											<img src="images/developer/about.png" alt="Ícaro Vaz Freire"/>
-										</div>
+										<div class="image"><img src="images/developer/about.png" alt="Ícaro Vaz Freire"/></div>
 										<div class="text">
-											<p></p>
+											<p>I am a Physics undergraduate student at the University of São Paulo and a HelpDesk intern at the Centre for Computing of the Institute of Physics at USP. I am also a volunteer at the Hackerspace, an open-source lab at IF-USP, and I have contributed to and worked on several projects throughout my time in college.</p>
+											<p>Technology and science have always intrigued me to the point I have definately fallen in love with these subjects, this is why I have chosen to pursue a career in research. I have always been curious about how the Universe works and what are the engines of the world, thus, as you have probably already guessed, I love learning new things and putting them into practice.</p>
+											<p>As I mentioned earlier, I look forward to working in research and hope to contribute back to science. . Also I crave to help on urgent matters, such as global warming, and assist the development of sustainable technologies in the Global South.</p>
 										</div>
 									</div>
 								</div>
@@ -64,8 +64,7 @@
 								<div class="title"><span>EDUCATION</span></div>
 								<div class="content">
 									<div class="degrees">
-										<p>In 2019, I got accepted into the <b>University of São Paulo</b>, a state university in Brazil, to obtain a Bachelor degree in Physics. Right in the first year of college, I got involved in a university extension project called <b>Hackerspace IFUSP</b>, an open computing and robotics lab at the Institute of Physics, and I received a HelpDesk internship on campus.
-										USP is well known as Brazil's most prestigious higher education institution and I am deeply honored for taking part in its community.</p>
+										<p>The <b>University of São Paulo</b> is a Brazilian state university, it is also Brazil's major institution of higher learning and scientific research. Currently I am a full-time student at USP.</p>
 										<br>
 										<ul class="list">
 											<li class="item">
