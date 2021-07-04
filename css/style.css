@@ -76,6 +76,10 @@ div.panel div.title > span:last-child {
 	font-weight: normal;
 	letter-spacing: 10px;
 }
+div.panel div.content {
+	display: flex;
+	flex-flow: column;
+}
 div.panel div.more {
 	width: 100%;
 	padding: 30px 0;
@@ -157,7 +161,7 @@ div.stack div.container {
 	position: relative;
 	padding: 100px 0;
 }
-div.stack div.container.light p, div.stack div.container.light span { color: white; }
+div.stack div.container.light p, div.stack div.container.light span, div.stack div.container.light i { color: white; }
 div.stack div.container.float {
 	display: flex;
 	justify-content: center;
@@ -190,7 +194,11 @@ div.stack div.container > img.background {
 	transform: scale(1.1);
 }
 div.stack div.container.right i.background { left: -10vw; }
-div.stack div.container.right div.panel > div.title { text-align: right; }
+div.stack div.container.right div.panel > div {
+	display: flex;
+	justify-content: right;
+	text-align: right;
+}
 div.stack div.container.right div.cards > a { margin-left: auto; }
 div.stack div.container.center div.panel > div.title { text-align: center; }
 
