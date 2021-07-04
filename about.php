@@ -18,7 +18,8 @@
 					<ul>
 						<a href="/"><li>Ícaro Freire</li></a>
 						<a href="#hello-world-container"><li>HELLO WORLD</li></a>
-						<a href="#education-container"><li>ACADEMIC EXPERIENCE</li></a>
+						<a href="#education-container"><li>EDUCATION</li></a>
+						<a href="#awards-container"><li>AWARDS</li></a>
 					</ul>
 				</div>
 			</div>
@@ -27,7 +28,7 @@
 			<div class="title">
 				<div class="wrapper">
 					<h1>ABOUT ME</h1>
-					<p>A more in-depth description on me and my experience.</p>
+					<p>Learn more about me.</p>
 				</div>
 			</div>
 		</header>
@@ -43,14 +44,10 @@
 								<div class="content">
 									<div class="about">
 										<div class="image">
-											<img src="images/developer/about.png" alt="Ícaro Vaz Freure"/>
+											<img src="images/developer/about.png" alt="Ícaro Vaz Freire"/>
 										</div>
 										<div class="text">
-											<p>Hey! I am Ícaro, a 20 years-old student passionate about science and technology. Currently I am graduating from a <b>Bachelor of Science</b> degree, in <b>Physics</b>, at the Institute of Physics at the <b>University of São Paulo</b>, in Brazil. I am also an IT HelpDesk intern at the Centre of Computing at IFUSP.
-											<br><br>
-											I love learning new things, problem-solving challenges and working on random tech projects. I believe the best way to learn something new is to get hands dirty and tinkering with it. Thus, since I was accepted into University I have been looking for projects and opportunities to put my knowledge into practice.
-											<br><br>
-											I am looking forward to continue in Academia after I graduate from my bachelor degree, still wondering between a <b>Master of Science</b> degree in <b>Astrophysics</b> or <b>Nuclear Physics</b> (maybe in both!). Despite that, I would not miss opportunities outside of the academic environment.</p>
+											<p></p>
 										</div>
 									</div>
 								</div>
@@ -64,30 +61,61 @@
 					<div class="holder">
 						<div class="wrapper">
 							<div class="panel">
-								<div class="title">
-									<span>ACADEMIC EXPERIENCE</span>
-								</div>
+								<div class="title"><span>EDUCATION</span></div>
 								<div class="content">
-									<div class="text">
+									<div class="degrees">
 										<p>In 2019, I got accepted into the <b>University of São Paulo</b>, a state university in Brazil, to obtain a Bachelor degree in Physics. Right in the first year of college, I got involved in a university extension project called <b>Hackerspace IFUSP</b>, an open computing and robotics lab at the Institute of Physics, and I received a HelpDesk internship on campus.
-										<br><br>
-										
-										<br><br>
-										USP is well known as Brazil's most prestigious higher education institution and I am deeply honored for taking part in its community.</p><br><br>
-										<div class="degrees">
-											<span class="title">DEGREES</span>
-											<br><br>
-											<ul class="degrees">
-												<li class="degree">
-													<div class="icon"><i class="fas fa-university"></i></div>
-													<div class="text">
-														<span>2019 - 2022</span><br>
-														<span>Bachelor of Science <b>in Physics</b></span><br>
-														<span><b>University of São Paulo</b>, Institute of Physics</span>
-													</div>
-												</li>
-											</ul>
-										</div>
+										USP is well known as Brazil's most prestigious higher education institution and I am deeply honored for taking part in its community.</p>
+										<br>
+										<ul class="list">
+											<li class="item">
+												<div class="icon"><i class="fas fa-university"></i></div>
+												<div class="text">
+													<span>2019 - Present</span><br>
+													<span>Bachelor of Science <b>in Physics</b></span><br>
+													<span>University of São Paulo</span>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="university-logo">
+										<img src="images/university/circle.png" alt="universidade de são paulo circulo" class="circle">
+										<img src="images/university/coat_of_arms.png" alt="coat of arms usp" class="coat">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container float right" id="awards-container">
+					<i class="fas fa-trophy background"></i>
+					<div class="holder">
+						<div class="wrapper">
+							<div class="panel">
+								<div class="title"><span>AWARDS</span></div>
+								<div class="content">
+									<div class="awards">
+										<p>I have received some awards throughout my life.</p>
+										<br>
+										<ul class="list">
+											<li class="item">
+												<div class="icon"><i class="fas fa-trophy"></i></div>
+												<div class="text">
+													<span>2018</span><br>
+													<span><b>Finalist</b></span><br>
+													<span>USP Knowledge Competition</span>
+												</div>
+											</li>
+											<li class="item">
+												<div class="icon"><i class="fas fa-medal"></i></div>
+												<div class="text">
+													<span>2017</span><br>
+													<span><b>Bronze medal</b></span><br>
+													<span>Brazilian Public Schools Mathematics Olympiad</span>
+												</div>
+											</li>
+										</ul>
 									</div>
 								</div>
 							</div>

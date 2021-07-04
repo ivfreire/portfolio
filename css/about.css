@@ -13,47 +13,66 @@ div.about div.image img {
 	width: 100%;
 	border-radius: 10px;
 }
-div.about div.text {
-}
 
-div.degrees {
-}
-div.degrees span.title {
-	font-size: 16px;
-	font-weight: bold;
-	letter-spacing: 2px;
-}
-div.degrees ul.degrees {
+ul.list {
 	display: flex;
 	flex-direction: column;
 	list-style-type: none;
 }
-div.degrees ul.degrees li.degree {
+ul.list li.item {
 	display: flex;
 	padding: 10px 0;
-	border-bottom: 1px dashed white;
 }
-div.degrees ul.degrees li.degree:last-child { border-bottom: none; }
-div.degrees ul.degrees li.degree > div { display: flex; }
-div.degrees ul.degrees li.degree > div.icon {
+ul.list li.item > div { display: flex; }
+ul.list li.item > div.icon {
 	display: flex;
 	padding: 12px 20px 12px 0;
 }
-div.degrees ul.degrees li.degree > div.icon i {
-	color: white;
-	font-size: 42px;
-}
-div.degrees ul.degrees li.degree > div.text {
+ul.list li.item > div.icon i { font-size: 42px; }
+ul.list li.item > div.text {
 	display: flex;
 	flex-direction: column;
 }
 
-div.container#education-container div.text { width: 50%; }
+div.stack div.container.right ul.list li.item {
+	justify-content: right;
+	flex-direction: row-reverse;
+}
+div.stack div.container.right ul.list li.item div.icon { padding: 12px 0 12px 20px; }
+
+div.degrees, div.awards { width: 50%; }
+
+@keyframes uni-circle {
+	0% { transform: rotate(0); }
+	100% { transform: rotate(360deg); }
+}
+
+div.container#education-container div.university-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 50%;
+}
+
+div.container#education-container div.university-logo > img {
+	position: absolute;
+	width: 90%;
+}
+
+div.container#education-container div.university-logo > img.circle { animation: uni-circle 60s infinite linear; }
+div.container#education-container div.university-logo > img.coat { width: 37%; }
+
+div.container#education-container div.panel div.content { flex-flow: row; }
+div.container#awards-container div.panel div.content { flex-flow: row; }
 
 @media screen and (max-width: 624px) {
 	div.about { flex-direction: column; }
 	div.about > div { width: 100%; }
 	div.about > div.image { margin-bottom: 30px; }
 
-	div.container#education-container div.text { width: 100%; }
+	div.degrees, div.awards { width: 100%; }
+	div.container#education-container div.university-logo {
+		display: none;
+	}
 }
