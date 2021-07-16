@@ -42,23 +42,25 @@
 										<ul class="posts">
 											<li>
 												<div class='panel'>
+													<div class="banner"><img src="/journal/posts/0/banner.jpg" alt="" srcset=""></div>
 													<div class='title'>
-														<span class='title'>Hello world</span>
+														<span class='title'>Lorem ipsum dolor sit amet.</span>
 														<span class='timestamp'>July 15th 2021</span>
 													</div>
 													<div class='content'>
-														<p>This is a post example, please ignore it!</p>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus sem suscipit metus euismod feugiat. In ex quam, scelerisque a felis vitae, gravida luctus nisl. Donec auctor odio sed ullamcorper efficitur. Duis vitae lacus facilisis, lacinia elit sed, aliquet ipsum. Mauris suscipit, metus id placerat gravida, nibh velit auctor metus, id laoreet est nulla eget massa. Nunc pharetra, elit vitae convallis efficitur, metus arcu rhoncus ex, nec posuere nisl eros sed ante. Curabitur posuere velit eu magna maximus ultrices nec nec sapien. Quisque non imperdiet nisi. Integer feugiat finibus diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus sit amet tellus in odio faucibus feugiat at sit amet felis. Proin accumsan aliquet accumsan. Nullam non nunc lorem. Proin vestibulum tincidunt risus, ac faucibus orci pretium sed. Integer scelerisque justo sem, a semper nisl commodo ut. </p>
 													</div>
 												</div>
 											</li>
 											<li>
 												<div class='panel'>
+													<div class="banner"><img src="/journal/posts/0/banner.jpg" alt="" srcset=""></div>
 													<div class='title'>
-														<span class='title'>Hello world</span>
+														<span class='title'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 														<span class='timestamp'>July 15th 2021</span>
 													</div>
 													<div class='content'>
-														<p>This is a post example, please ignore it!</p>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus sem suscipit metus euismod feugiat. In ex quam, scelerisque a felis vitae, gravida luctus nisl. Donec auctor odio sed ullamcorper efficitur. Duis vitae lacus facilisis, lacinia elit sed, aliquet ipsum. Mauris suscipit, metus id placerat gravida, nibh velit auctor metus, id laoreet est nulla eget massa. Nunc pharetra, elit vitae convallis efficitur, metus arcu rhoncus ex, nec posuere nisl eros sed ante. Curabitur posuere velit eu magna maximus ultrices nec nec sapien. Quisque non imperdiet nisi. Integer feugiat finibus diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus sit amet tellus in odio faucibus feugiat at sit amet felis. Proin accumsan aliquet accumsan. Nullam non nunc lorem. Proin vestibulum tincidunt risus, ac faucibus orci pretium sed. Integer scelerisque justo sem, a semper nisl commodo ut. </p>
 													</div>
 												</div>
 											</li>

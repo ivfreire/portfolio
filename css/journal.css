@@ -20,6 +20,7 @@ ul.posts li {
 }
 
 ul.posts li:first-of-type { padding: 0 0 50px 0; }
+ul.posts li:last-of-type { padding: 50px 0 0; border-bottom: none; }
 
 ul.posts div.panel div.title {
 	display: flex;
