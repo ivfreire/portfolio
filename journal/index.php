@@ -8,6 +8,7 @@
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/journal.css">
+	<link rel="stylesheet" href="css/widgets.css">
 	<script src="https://kit.fontawesome.com/821f984533.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -25,7 +26,7 @@
 			<div class="title">
 				<div class="wrapper">
 					<h1>JOURNAL</h1>
-					<p></p>
+					<p>Useful content I create.</p>
 				</div>
 			</div>
 		</header>
@@ -42,7 +43,7 @@
 										<ul class="posts">
 											<li>
 												<div class='panel'>
-													<div class="banner"><img src="/journal/posts/0/banner.jpg" alt="" srcset=""></div>
+													<div class="banner"><img src="/journal/posts/1/banner.jpg" alt="" srcset=""></div>
 													<div class='title'>
 														<span class='title'>Lorem ipsum dolor sit amet.</span>
 														<span class='timestamp'>July 15th 2021</span>
@@ -67,7 +68,27 @@
 										</ul>
 									</div>
 									<div class="sidebar">
-										asa
+										<ul class="widgets">
+											<li class="widget">
+												<div class="panel" id="description">
+													<div class="title"><span>JOURNAL</span></div>
+													<div class="content">
+														<p>This is a place where I write about everything I find interesting.</p>
+													</div>
+												</div>
+											</li>
+											<a href="/about.php" .widget><li>
+												<div class="panel" id="author">
+													<div class="content">
+														<img src="images/developer/profile.png" alt="" srcset="">
+														<div class="text">
+															<span>Ícaro Freire</span>
+															<p>Physics student and tech enthusiast.</p>
+														</div>
+													</div>
+												</div>
+											</li></a>
+										</ul>
 									</div>
 								</div>
 							</div>
