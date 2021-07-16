@@ -32,6 +32,47 @@
 		<div class="content">
 			<div class="stack">
 
+				<div class="element light">
+					<div class="wrapper">
+						<div class="panel">
+							<!-- <div class="title"><span>POSTS</span></div> -->
+							<div class="content">
+								<div class="layout">
+									<div class="posts">
+										<ul class="posts">
+											<li>
+												<div class='panel'>
+													<div class='title'>
+														<span class='title'>Hello world</span>
+														<span class='timestamp'>July 15th 2021</span>
+													</div>
+													<div class='content'>
+														<p>This is a post example, please ignore it!</p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class='panel'>
+													<div class='title'>
+														<span class='title'>Hello world</span>
+														<span class='timestamp'>July 15th 2021</span>
+													</div>
+													<div class='content'>
+														<p>This is a post example, please ignore it!</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="sidebar">
+										asa
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 		<footer>

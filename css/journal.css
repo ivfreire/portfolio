@@ -1,0 +1,39 @@
+div.layout {
+	display: flex;
+	justify-content: space-between;
+}
+
+div.layout div.posts {
+	width: 69%;
+}
+
+div.layout div.sidebar {
+	width: 30%;
+}
+
+
+ul.posts { list-style-type: none; }
+
+ul.posts li {
+	padding: 50px 0;
+	border-bottom: 1px dashed #AAA;
+}
+
+ul.posts li:first-of-type { padding: 0 0 50px 0; }
+
+ul.posts div.panel div.title {
+	display: flex;
+	flex-direction: column;
+}
+
+ul.posts div.panel div.title span.title {
+	font-size: 32px;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+ul.posts div.panel div.title span.timestamp {
+	font-size: 16px;
+	letter-spacing: 0;
+}
