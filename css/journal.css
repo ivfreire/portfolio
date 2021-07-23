@@ -1,0 +1,79 @@
+div.layout {
+	display: flex;
+	justify-content: space-between;
+}
+
+div.layout div.posts {
+	width: 69%;
+}
+
+div.layout div.sidebar {
+	width: 30%;
+}
+
+
+ul.posts { list-style-type: none; }
+
+ul.posts li {
+	padding: 50px 0;
+	border-bottom: 1px dashed #AAA;
+}
+
+ul.posts li:first-of-type { padding: 0 0 50px 0; }
+ul.posts li:last-of-type { padding: 50px 0 0; border-bottom: none; }
+
+ul.posts div.panel { cursor: pointer; }
+
+ul.posts div.panel div.banner {
+	position: relative;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 25%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+ul.posts div.panel:hover div.banner img { transform: scale(1.1); }
+ul.posts div.panel:hover div.title span.title { color: var(--blue); }
+
+ul.posts div.panel div.banner img {
+	position: absolute;
+	width: 100%;
+	transition: all 0.25s;
+	top: -50%;
+}
+
+ul.posts div.panel div.title {
+	display: flex;
+	flex-direction: column;
+}
+
+ul.posts div.panel div.title span.title {
+	font-size: 32px;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: all 0.25s;
+}
+
+ul.posts div.panel div.title span.timestamp {
+	font-size: 16px;
+	letter-spacing: 0;
+	color: #AAAAAA;
+}
+
+ul.posts div.panel div.content p { text-align: justify; }
+
+ul.widgets a {
+	text-decoration: none;
+	color: #545454;
+}
+
+ul.widgets {
+	list-style-type: none;
+	color: #545454;
+}
+
+ul.widgets .widget { padding: 20px 0; }
+ul.widgets .widget:first-child { padding: 0 0 20px 0; }
+ul.widgets .widget:last-child { padding: 20px 0 0 0; }

@@ -1,0 +1,31 @@
+/* Description on journal page */
+
+div#description div.title span {
+	letter-spacing: 0;
+	font-size: 24px;
+}
+
+/* Author on jounal page */
+
+div#author {
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	background: var(--white);
+	border-radius: 5px;
+	padding: 5%;
+	box-shadow: 0 0 10px #CCCCCC;
+}
+
+div#author img {
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+div#author div.text {
+	padding-top: 10px;
+}
+div#author div.text span {
+	font-weight: bold;
+}

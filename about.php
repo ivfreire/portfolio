@@ -46,8 +46,8 @@
 										<div class="image"><img src="images/developer/about.png" alt="Ícaro Vaz Freire"/></div>
 										<div class="text">
 											<p>I am a Physics undergraduate student at the University of São Paulo and a HelpDesk intern at the Centre for Computing of the Institute of Physics at USP. I am also a volunteer at the Hackerspace, an open-source lab at IF-USP, and I have contributed to and worked on several projects throughout my time in college.</p>
-											<p>Technology and science have always intrigued me to the point I have definately fallen in love with these subjects, this is why I have chosen to pursue a career in research. I have always been curious about how the Universe works and what are the engines of the world, thus, as you have probably already guessed, I love learning new things and putting them into practice.</p>
-											<p>As I mentioned earlier, I look forward to working in research and hope to contribute back to science. . Also I crave to help on urgent matters, such as global warming, and assist the development of sustainable technologies in the Global South.</p>
+											<p>Technology and science have always intrigued me to the point I have definately fallen in love with these subjects, this is why I have chosen to pursue a career in scientific research. I have always been curious about how the Universe works and what drives the world forward, thus, as you probably already have guessed, I love learning new things and putting them into practice.</p>
+											<p>As I mentioned earlier, I look forward to working in research and hope to contribute to science. I also crave to help on urgent matters, such as global warming, and assist the development of sustainable technologies in the Global South.</p>
 										</div>
 									</div>
 								</div>
@@ -64,13 +64,13 @@
 								<div class="title"><span>EDUCATION</span></div>
 								<div class="content">
 									<div class="degrees">
-										<p>The <b>University of São Paulo</b> is a Brazilian state university, it is also Brazil's major institution of higher learning and scientific research. Currently I am a full-time student at USP.</p>
+										<p>The <b>University of São Paulo</b> is a Brazilian state university, it is also Brazil's major institution of higher learning and scientific research. Currently I am a full-time Physics undergraduate student at the Institute of Physics at USP.</p>
 										<br>
 										<ul class="list">
 											<li class="item">
 												<div class="icon"><i class="fas fa-university"></i></div>
 												<div class="text">
-													<span>2019 - Present</span><br>
+													<span>2019 - curently</span><br>
 													<span>Bachelor of Science <b>in Physics</b></span><br>
 													<span>University of São Paulo</span>
 												</div>
@@ -95,7 +95,7 @@
 								<div class="title"><span>AWARDS</span></div>
 								<div class="content">
 									<div class="awards">
-										<p>I have received some awards throughout my life.</p>
+										<p>These are some awards and prizes I have achieved.</p>
 										<br>
 										<ul class="list">
 											<li class="item">
